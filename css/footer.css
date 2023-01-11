@@ -1,0 +1,192 @@
+
+/*
+*
+*FOOTER
+*
+*/
+
+footer.footerbg{
+    background: var(--bg-color);
+}
+
+div.section {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 47px;
+}
+
+.logo2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+
+    letter-spacing: 0.03em;
+    text-decoration: none;
+
+    color: var(--highlight-color);
+    ;
+}
+
+.footer-address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+}
+
+.footer-contact {
+    letter-spacing: 0.03em;
+    text-decoration: none;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contact:hover,
+.footer-contact:focus {
+    color: var(--highlight-color);
+    ;
+}
+
+aside.social-links {
+    padding-left: 70px;
+}
+
+.find-us {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 20px;
+
+    color: var(--white-color);
+}
+
+.social-ulist-footer {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin-left: 0px;
+}
+
+.elipse-footer{
+    position: relative;
+    height: 44px;
+    width: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;    
+}
+
+.elipse-footer:hover,
+.elipse-footer:focus {
+    background-color: var(--highlight-color);
+    cursor: pointer;
+} 
+
+aside ul li > .icon-ig{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 20px;
+    height: 20px;
+    fill: var(--white-color);
+}
+
+
+aside ul li > .icon-twitter{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 20px;
+    height: 20px;
+    fill:var(--white-color);
+}
+
+
+aside ul li > .icon-fb{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 20px;
+    height: 20px;
+    fill:var(--white-color);
+}
+
+
+aside ul li > .icon-linkedin{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 20px;
+    height: 20px;
+    fill:var(--white-color);
+}
+
+
+.footer-form {
+	margin: 12px 0px 0px 93px;
+}
+
+.footer-form-tittle {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+
+	margin-bottom: 20px;
+
+	color: var(--white-color);
+}
+
+.footer-div {
+	display: inline;
+	width: 580px;
+	height: auto;
+}
+
+.footer-input-form {
+	width: 358px;
+	height: 50px;
+	margin-right: 12px;
+	padding: 15px 0px 15px 16px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: rgba(255, 255, 255, 0.6);
+	background-color: var(--bg-color);
+
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+	border-radius: 4px;
+}
+
+button.sub-button {
+	width: 200px;
+	height: 50px;
+	padding: 0;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	background-color: var(--highlight-color);
+	color: var(--white-color);
+}
+
+button.sub-button > p {
+	display: inline;
+	width: 80px;
+}
+
+.icon-telegram {
+	width: 24px;
+	height: 24px;
+	margin-left: 8px;
+    fill: var(--white-color);
+}
