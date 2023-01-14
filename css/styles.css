@@ -1219,6 +1219,132 @@ button.sub-button > p {
   fill: #FFFFFF;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+}
+
+header > nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 80px;
+}
+
+/* WebStudio */
+.header__logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: rgb(33, 150, 243);
+}
+
+/* Ul */
+.nav__links {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px 80px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+li > a {
+  color: #757575;
+}
+
+li > a.page::after {
+  content: "";
+  display: flex;
+  align-items: flex-end;
+  visibility: hidden;
+}
+
+li > a.page:hover::after,
+li > a.page:focus::after {
+  width: 100%;
+  transform: translateY(28px);
+  border: 1px solid rgb(33, 150, 243);
+  border-radius: 2px;
+  transition: 250ms cubic-bezier(0.2, 0, 0.2, 1);
+  visibility: visible;
+}
+
+li > a:hover,
+li > a:focus {
+  color: rgb(33, 150, 243);
+}
+
+aside.contact-ribbon {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+/* info@devstudio.com */
+.ribbon-contact {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+
+.icon-envelope {
+  width: 15px;
+  height: 15px;
+  fill: #757575;
+}
+
+.ribbon-contact:hover,
+.icon-envelope:hover,
+.ribbon-contact:focus,
+.icon-envelope:focus {
+  color: rgb(33, 150, 243);
+  fill: rgb(33, 150, 243);
+}
+
+/* +52 55 5529 6000 */
+.ribbon-contact2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+
+.icon-phone {
+  fill: #757575;
+  width: 15px;
+  height: 15px;
+}
+
+.ribbon-contact2:hover,
+.icon-phone:hover,
+.ribbon-contact2:focus,
+.icon-phone:focus {
+  fill: rgb(33, 150, 243);
+  color: rgb(33, 150, 243);
+}
+
 .button-filter {
   display: flex;
   list-style: none;

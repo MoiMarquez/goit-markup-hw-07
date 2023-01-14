@@ -1,258 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<!-- FILES -->
-		<link rel="stylesheet" href="css/styles.css" />
-		<link rel="stylesheet" href="css/modern-normalize.css>" /> 
-		<!-- FONTS -->
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
-			rel="stylesheet"
-		/>
 
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
-			rel="stylesheet"
-		/>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- FILES -->
+	<link rel="stylesheet" href="css/styles.css" />
+	<link rel="stylesheet" href="css/modern-normalize.css>" />
+	<!-- FONTS -->
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
 
-		<title>WebStudio</title>
-	</head>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet" />
 
-	<body>
-		<header class="header container">
-			<nav>
-				<ul class="nav-links list">
-					<a class="logo" href="index.html">WebStudio</a>
-					<li><a class="page" href="index.html">Estudio</a></li>
-					<li><a class="page current" href="portfolio.html">Portafolio</a></li>
-					<li><a class="page" href="contacts.html">Contactos</a></li>
+	<title>WebStudio</title>
+</head>
+
+<body>
+	<header class="header container">
+		<nav>
+			<ul class="nav__links list">
+				<a class="header__logo" href="index.html">WebStudio</a>
+				<li><a class="page" href="index.html">Estudio</a></li>
+				<li><a class="page current" href="portfolio.html">Portafolio</a></li>
+				<li><a class="page" href="contacts.html">Contactos</a></li>
+			</ul>
+		</nav>
+
+		<aside class="contact-ribbon list">
+			<a class="ribbon-contact" href="mailto:info@devstudio.com">
+				<svg class="icon-envelope">
+					<use href="images/icons.svg#icon-envelope"></use>
+				</svg>
+				info@devstudio.com</a>
+
+			<a class="ribbon-contact2" href="tel:+525555296000">
+				<svg class="icon-envelope">
+					<use href="images/icons.svg#icon-phone"></use>
+				</svg>
+				+52 55 5529 6000</a>
+		</aside>
+	</header>
+
+	<main>
+		<section class="portfolio">
+			<div class="container">
+				<ul class="button-filter">
+					<li><button type="button">Todo</button></li>
+					<li><button type="button">Sitios-web</button></li>
+					<li><button type="button">Aplicaciones</button></li>
+					<li><button type="button">Diseño</button></li>
+					<li><button type="button">Marketing</button></li>
 				</ul>
-			</nav>
 
-			<aside class="contact-ribbon list">
-				<a class="ribbon-contact" href="mailto:info@devstudio.com">
-					<svg class="icon-envelope">
-						<use href="images/icons.svg#icon-envelope"></use>
-					</svg>
-					info@devstudio.com</a>
-
-				<a class="ribbon-contact2" href="tel:+525555296000">
-					<svg class="icon-envelope">
-						<use href="images/icons.svg#icon-phone"></use>
-					</svg>
-					+52 55 5529 6000</a
-				>
-			</aside>
-		</header>
-
-		<main>
-			<section class="portfolio">
-				<div class="container">
-					<ul class="button-filter">
-						<li><button type="button">Todo</button></li>
-						<li><button type="button">Sitios-web</button></li>
-						<li><button type="button">Aplicaciones</button></li>
-						<li><button type="button">Diseño</button></li>
-						<li><button type="button">Marketing</button></li>
-					</ul>
-
-					<ul class="grid-box">
-						<li>
-							<div class="transition-box">
-								<img class="translation-bg" src="images/gridimg1.jpg" alt="Tecnoduck" width="370" />
-								<div class="overflow-box"><p>Tecnoduck es una plataforma de distribución 
-								de coronavirus de última generación. Las compañías usan esta 
-								plataforma para el espionaje digital y los ataques a los servidores
-									seguros de la competencia.</p></div>
+				<ul class="grid-box">
+					<li>
+						<div class="transition-box">
+							<img class="translation-bg" src="images/gridimg1.jpg" alt="Tecnoduck" width="370" />
+							<div class="overflow-box">
+								<p>Tecnoduck es una plataforma de distribución
+									de coronavirus de última generación. Las compañías usan esta
+									plataforma para el espionaje digital y los ataques a los servidores
+									seguros de la competencia.</p>
 							</div>
-							<a href="#" class="link">
-								<h3 class="bold-text">Tecnoduck</h3>
-								<p class="filter-text">Sitio-web</p>
-							</a>
-						</li>
+						</div>
+						<a href="#" class="link">
+							<h3 class="bold-text">Tecnoduck</h3>
+							<p class="filter-text">Sitio-web</p>
+						</a>
+					</li>
 
-						<li>
-							<div class="transition-box">
-								<img class="translation-bg" src="images/gridimg2.jpg" alt="Basket" width="370" />
-								<div class="overflow-box"><p>Tecnoduck es una plataforma de distribución 
-								de coronavirus de última generación. Las compañías usan esta 
-								plataforma para el espionaje digital y los ataques a los servidores
-									seguros de la competencia.</p></div>
+					<li>
+						<div class="transition-box">
+							<img class="translation-bg" src="images/gridimg2.jpg" alt="Basket" width="370" />
+							<div class="overflow-box">
+								<p>Tecnoduck es una plataforma de distribución
+									de coronavirus de última generación. Las compañías usan esta
+									plataforma para el espionaje digital y los ataques a los servidores
+									seguros de la competencia.</p>
 							</div>
-							<a href="#" class="link">
-								<h3 class="bold-text">Tecnoduck</h3>
-								<p class="filter-text">Sitio-web</p>
-							</a>
-						</li>
+						</div>
+						<a href="#" class="link">
+							<h3 class="bold-text">Tecnoduck</h3>
+							<p class="filter-text">Sitio-web</p>
+						</a>
+					</li>
 
-						<li>
-							<div class="transition-box">
-								<img class="translation-bg" src="images/gridimg3.jpg" alt="Restaurant" width="370" />
-								<div class="overflow-box"><p>Tecnoduck es una plataforma de distribución 
-								de coronavirus de última generación. Las compañías usan esta 
-								plataforma para el espionaje digital y los ataques a los servidores
-									seguros de la competencia.</p></div>
+					<li>
+						<div class="transition-box">
+							<img class="translation-bg" src="images/gridimg3.jpg" alt="Restaurant" width="370" />
+							<div class="overflow-box">
+								<p>Tecnoduck es una plataforma de distribución
+									de coronavirus de última generación. Las compañías usan esta
+									plataforma para el espionaje digital y los ataques a los servidores
+									seguros de la competencia.</p>
 							</div>
-							<a href="#" class="link">
-								<h3 class="bold-text">Tecnoduck</h3>
-								<p class="filter-text">Sitio-web</p>
-							</a>
-						</li>
+						</div>
+						<a href="#" class="link">
+							<h3 class="bold-text">Tecnoduck</h3>
+							<p class="filter-text">Sitio-web</p>
+						</a>
+					</li>
 
-						<li>
-							<div class="transition-box">
-								<img class="translation-bg" src="images/gridimg4.jpg" alt="Headset" width="370" />
-								<div class="overflow-box"><p>Tecnoduck es una plataforma de distribución 
-								de coronavirus de última generación. Las compañías usan esta 
-								plataforma para el espionaje digital y los ataques a los servidores
-									seguros de la competencia.</p></div>
+					<li>
+						<div class="transition-box">
+							<img class="translation-bg" src="images/gridimg4.jpg" alt="Headset" width="370" />
+							<div class="overflow-box">
+								<p>Tecnoduck es una plataforma de distribución
+									de coronavirus de última generación. Las compañías usan esta
+									plataforma para el espionaje digital y los ataques a los servidores
+									seguros de la competencia.</p>
 							</div>
-							<a href="#" class="link">
-								<h3 class="bold-text">Tecnoduck</h3>
-								<p class="filter-text">Sitio-web</p>
-							</a>
-						</li>
+						</div>
+						<a href="#" class="link">
+							<h3 class="bold-text">Tecnoduck</h3>
+							<p class="filter-text">Sitio-web</p>
+						</a>
+					</li>
 
-						<li>
-							<div class="transition-box">
-								<img class="translation-bg" src="images/gridimg5.jpg" alt="Boxes" width="370" />
-								<div class="overflow-box"><p>Tecnoduck es una plataforma de distribución 
-								de coronavirus de última generación. Las compañías usan esta 
-								plataforma para el espionaje digital y los ataques a los servidores
-									seguros de la competencia.</p></div>
+					<li>
+						<div class="transition-box">
+							<img class="translation-bg" src="images/gridimg5.jpg" alt="Boxes" width="370" />
+							<div class="overflow-box">
+								<p>Tecnoduck es una plataforma de distribución
+									de coronavirus de última generación. Las compañías usan esta
+									plataforma para el espionaje digital y los ataques a los servidores
+									seguros de la competencia.</p>
 							</div>
-							<a href="#" class="link">
-								<h3 class="bold-text">Tecnoduck</h3>
-								<p class="filter-text">Sitio-web</p>
-							</a>
-						</li>
+						</div>
+						<a href="#" class="link">
+							<h3 class="bold-text">Tecnoduck</h3>
+							<p class="filter-text">Sitio-web</p>
+						</a>
+					</li>
 
-						<li>
-							<div class="transition-box">
-								<img class="translation-bg" src="images/gridimg6.jpg" alt="Mac" width="370" />
-								<div class="overflow-box"><p>Tecnoduck es una plataforma de distribución 
-								de coronavirus de última generación. Las compañías usan esta 
-								plataforma para el espionaje digital y los ataques a los servidores
-									seguros de la competencia.</p></div>
+					<li>
+						<div class="transition-box">
+							<img class="translation-bg" src="images/gridimg6.jpg" alt="Mac" width="370" />
+							<div class="overflow-box">
+								<p>Tecnoduck es una plataforma de distribución
+									de coronavirus de última generación. Las compañías usan esta
+									plataforma para el espionaje digital y los ataques a los servidores
+									seguros de la competencia.</p>
 							</div>
-							<a href="#" class="link">
-								<h3 class="bold-text">Tecnoduck</h3>
-								<p class="filter-text">Sitio-web</p>
-							</a>
-						</li>
+						</div>
+						<a href="#" class="link">
+							<h3 class="bold-text">Tecnoduck</h3>
+							<p class="filter-text">Sitio-web</p>
+						</a>
+					</li>
 
-						<li>
-							<div class="transition-box">
-								<img class="translation-bg" src="images/gridimg7.jpg" alt="Book" width="370" />
-								<div class="overflow-box"><p>Tecnoduck es una plataforma de distribución 
-								de coronavirus de última generación. Las compañías usan esta 
-								plataforma para el espionaje digital y los ataques a los servidores
-									seguros de la competencia.</p></div>
+					<li>
+						<div class="transition-box">
+							<img class="translation-bg" src="images/gridimg7.jpg" alt="Book" width="370" />
+							<div class="overflow-box">
+								<p>Tecnoduck es una plataforma de distribución
+									de coronavirus de última generación. Las compañías usan esta
+									plataforma para el espionaje digital y los ataques a los servidores
+									seguros de la competencia.</p>
 							</div>
-							<a href="#" class="link">
-								<h3 class="bold-text">Tecnoduck</h3>
-								<p class="filter-text">Sitio-web</p>
-							</a>
-						</li>
+						</div>
+						<a href="#" class="link">
+							<h3 class="bold-text">Tecnoduck</h3>
+							<p class="filter-text">Sitio-web</p>
+						</a>
+					</li>
 
-						<li>
-							<div class="transition-box">
-								<img class="translation-bg" src="images/gridimg8.jpg" alt="Label" width="370" />
-								<div class="overflow-box"><p>Tecnoduck es una plataforma de distribución 
-								de coronavirus de última generación. Las compañías usan esta 
-								plataforma para el espionaje digital y los ataques a los servidores
-									seguros de la competencia.</p></div>
+					<li>
+						<div class="transition-box">
+							<img class="translation-bg" src="images/gridimg8.jpg" alt="Label" width="370" />
+							<div class="overflow-box">
+								<p>Tecnoduck es una plataforma de distribución
+									de coronavirus de última generación. Las compañías usan esta
+									plataforma para el espionaje digital y los ataques a los servidores
+									seguros de la competencia.</p>
 							</div>
-							<a href="#" class="link">
-								<h3 class="bold-text">Tecnoduck</h3>
-								<p class="filter-text">Sitio-web</p>
-							</a>
-						</li>
+						</div>
+						<a href="#" class="link">
+							<h3 class="bold-text">Tecnoduck</h3>
+							<p class="filter-text">Sitio-web</p>
+						</a>
+					</li>
 
-						<li>
-							<div class="transition-box">
-								<img class="translation-bg" src="images/gridimg9.jpg" alt="App" width="370" />
-								<div class="overflow-box"><p>Tecnoduck es una plataforma de distribución 
-								de coronavirus de última generación. Las compañías usan esta 
-								plataforma para el espionaje digital y los ataques a los servidores
-									seguros de la competencia.</p></div>
+					<li>
+						<div class="transition-box">
+							<img class="translation-bg" src="images/gridimg9.jpg" alt="App" width="370" />
+							<div class="overflow-box">
+								<p>Tecnoduck es una plataforma de distribución
+									de coronavirus de última generación. Las compañías usan esta
+									plataforma para el espionaje digital y los ataques a los servidores
+									seguros de la competencia.</p>
 							</div>
-							<a href="#" class="link">
-								<h3 class="bold-text">Tecnoduck</h3>
-								<p class="filter-text">Sitio-web</p>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</section>
-		</main>
-
-		<footer class="footerbg">
-			<div class="container section">
-				<div>
-					<a class="logo2" href="#">WebStudio</a>
-					<address class="footer-address">
-						Calz. Ticomán 500, <br />
-						Ciudad de México, CDMX, México <br />
-						<a class="footer-contact" href="mailto:info@devstudio.com"
-							>info@devstudio.com</a
-						>
-						<br />
-						<a class="footer-contact" href="tel:+525555296000"
-							>+52 55 5529 6000</a
-						>
-					</address>
-				</div>
-
-				<aside class="social-links">
-					<h2 class="find-us">ENCUENTRENOS EN</h2>
-
-					<ul class="social-ulist-footer">
-						<li class="elipse-footer">
-							<svg class="icon-ig">
-								<use href="images/icons.svg#icon-ig"></use>
-							</svg>
-						</li>
-						</li>
-
-						<li class="elipse-footer">
-							<svg class="icon-twitter">
-								<use href="images/icons.svg#icon-twitter"></use>
-							</svg>
-						</li>
-
-						<li class="elipse-footer">
-							<svg class="icon-fb">
-								<use href="images/icons.svg#icon-fb"></use>
-							</svg>
-						</li>
-
-						<li class="elipse-footer">
-							<svg class="icon-linkedin">
-								<use href="images/icons.svg#icon-linkedin"></use>
-							</svg>
-						</li>
-					</ul>
-				</aside>
-				<aside class="footer-form"> 
-					<H2 class="footer-form-tittle">SUSCRÍBASE AL BOLETÍN INFORMATIVO</H2>
-					<div class="footer-div">
-						<input class="footer-input-form" type="text" placeholder="Correo electrónico">
-						<button class="sub-button">
-							<p>Suscríbase
-							<svg class="icon-telegram">
-							<use href="images/icons.svg#icon-telegram"></use>
-						</svg></p></button>
-					</div>
-				</aside>
+						</div>
+						<a href="#" class="link">
+							<h3 class="bold-text">Tecnoduck</h3>
+							<p class="filter-text">Sitio-web</p>
+						</a>
+					</li>
+				</ul>
 			</div>
-		</footer>
-	</body>
+		</section>
+	</main>
+
+	<footer class="footerbg">
+		<div class="container section">
+			<div>
+				<a class="logo2" href="#">WebStudio</a>
+				<address class="footer-address">
+					Calz. Ticomán 500, <br />
+					Ciudad de México, CDMX, México <br />
+					<a class="footer-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+					<br />
+					<a class="footer-contact" href="tel:+525555296000">+52 55 5529 6000</a>
+				</address>
+			</div>
+
+			<aside class="social-links">
+				<h2 class="find-us">ENCUENTRENOS EN</h2>
+
+				<ul class="social-ulist-footer">
+					<li class="elipse-footer">
+						<svg class="icon-ig">
+							<use href="images/icons.svg#icon-ig"></use>
+						</svg>
+					</li>
+					</li>
+
+					<li class="elipse-footer">
+						<svg class="icon-twitter">
+							<use href="images/icons.svg#icon-twitter"></use>
+						</svg>
+					</li>
+
+					<li class="elipse-footer">
+						<svg class="icon-fb">
+							<use href="images/icons.svg#icon-fb"></use>
+						</svg>
+					</li>
+
+					<li class="elipse-footer">
+						<svg class="icon-linkedin">
+							<use href="images/icons.svg#icon-linkedin"></use>
+						</svg>
+					</li>
+				</ul>
+			</aside>
+			<aside class="footer-form">
+				<H2 class="footer-form-tittle">SUSCRÍBASE AL BOLETÍN INFORMATIVO</H2>
+				<div class="footer-div">
+					<input class="footer-input-form" type="text" placeholder="Correo electrónico">
+					<button class="sub-button">
+						<p>Suscríbase
+							<svg class="icon-telegram">
+								<use href="images/icons.svg#icon-telegram"></use>
+							</svg>
+						</p>
+					</button>
+				</div>
+			</aside>
+		</div>
+	</footer>
+</body>
+
 </html>
