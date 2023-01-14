@@ -105,7 +105,7 @@ li>.icon-ig {
 
 .icon-twitter:hover,
 .icon-twitter:focus {
-    fill: var(--white-color);
+    fill: color.$white-color;
 }
 
 .icon-fb {
@@ -119,7 +119,7 @@ li>.icon-ig {
 
 .icon-fb:hover,
 .icon-fb:focus {
-    fill: var(--white-color);
+    fill: color.$white-color;
 }
 
 .icon-linkedin {
@@ -133,5 +133,5 @@ li>.icon-ig {
 
 .icon-linkedin:hover,
 .icon-linkedin:focus {
-    fill: var(--white-color);
+    fill: color.$white-color;
 }

@@ -273,7 +273,7 @@ header > nav {
 }
 
 /* WebStudio */
-.logo {
+.header__logo {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -285,7 +285,7 @@ header > nav {
 }
 
 /* Ul */
-.nav-links {
+.nav__links {
   display: flex;
   list-style: none;
   justify-content: space-around;
@@ -886,7 +886,7 @@ li > .icon-ig {
 
 .icon-twitter:hover,
 .icon-twitter:focus {
-  fill: var(--white-color);
+  fill: #FFFFFF;
 }
 
 .icon-fb {
@@ -900,7 +900,7 @@ li > .icon-ig {
 
 .icon-fb:hover,
 .icon-fb:focus {
-  fill: var(--white-color);
+  fill: #FFFFFF;
 }
 
 .icon-linkedin {
@@ -914,7 +914,7 @@ li > .icon-ig {
 
 .icon-linkedin:hover,
 .icon-linkedin:focus {
-  fill: var(--white-color);
+  fill: #FFFFFF;
 }
 
 .clients-section {
