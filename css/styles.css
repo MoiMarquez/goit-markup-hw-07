@@ -1228,7 +1228,7 @@ button.sub-button > p {
 }
 
 button {
-  background-color: var(--grey-bg);
+  background-color: #f5f4fa;
   border-radius: 4px;
   border: 0;
   padding: 0 20px 0 20px;
@@ -1242,8 +1242,8 @@ button {
 button:hover,
 button:focus {
   cursor: pointer;
-  background-color: var(--highlight-color);
-  color: var(--white-color);
+  background-color: rgb(33, 150, 243);
+  color: #FFFFFF;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border: 0;
 }
@@ -1282,7 +1282,7 @@ div .overflow-box {
   transform: translatey(100%);
   transition: transform 250ms ease;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: var(--highlight-color);
+  background-color: rgb(33, 150, 243);
   opacity: 90%;
 }
 
@@ -1296,7 +1296,7 @@ ul.grid-box > li div .overflow-box > p {
   line-height: 28px;
   text-align: justify;
   letter-spacing: 0.03em;
-  color: var(--white-color);
+  color: #FFFFFF;
   margin: 63px 24px;
   padding: 0px;
 }
@@ -1314,7 +1314,7 @@ ul.grid-box > li h3 {
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
-  color: var(--black-color);
+  color: #212121;
 }
 
 ul.grid-box > li p {
@@ -1326,7 +1326,7 @@ ul.grid-box > li p {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
-  color: var(--grey-color);
+  color: #757575;
 }
 
 /*# sourceMappingURL=styles.css.map */
