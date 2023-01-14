@@ -1,7 +1,9 @@
-@import url(componets/__header.scss);
-@import url(componets/__background.scss);
-@import url(componets/__what_we_do.scss);
-@import url(componets/__us.scss);
-@import url(componets/__clients.scss);
-@import url(componets/__footer.scss);
-@import url(componets/_porfolio_cards.scss);
+@import "utils/reset.scss";
+@import "componets/header.scss";
+@import "componets/_background.scss";
+@import "componets/_what_we_do.scss";
+@import "componets/_us";
+@import "componets/team";
+@import "componets/_clients";
+@import "componets/_footer";
+@import "componets/_porfolio_cards.scss";

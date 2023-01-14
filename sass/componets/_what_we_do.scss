@@ -1,0 +1,72 @@
+@use "../utils/variables.scss" as var;
+@use "../utils/variables.scss" as color;
+
+.section {
+    padding: var.$inner-padding;
+}
+
+.sec-a {
+    padding-bottom: 0px;
+}
+
+.sec-b {
+    padding-bottom: 0px;
+}
+
+.sec-c {
+    padding-top: 60px;
+}
+
+.icon-box {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    background-color: color.$white-color;
+}
+
+.icon-antena {
+    width: 65px;
+    height: 70px;
+}
+
+.icon-clock {
+    width: 66px;
+    height: 70px;
+}
+
+.icon-diagram {
+    width: 70px;
+    height: 53px;
+}
+
+.icon-astronaut {
+    width: 70px;
+    height: 70px;
+}
+
+ul.article-ulist {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+ul.article-ulist>li {
+    width: 270px;
+}
+
+.article-tittle {
+    text-align: start;
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 10px;
+    color: color.$black-color;
+}
+
+li>.article-description {
+    text-align: left;
+}
