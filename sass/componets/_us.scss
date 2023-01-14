@@ -1,0 +1,43 @@
+@use "../utils/variables.scss" as color;
+
+.us {
+    text-align: center;
+    padding-bottom: 50px;
+    color: color.$black-color;
+}
+
+.us-list {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 94px;
+}
+
+ul.us-list>li {
+    position: relative;
+}
+
+li>.us-bg {
+    position: absolute;
+    background-color: color.$black-color;
+    opacity: 80%;
+    top: 78%;
+    left: 0px;
+    width: 370px;
+    height: 70px;
+    text-align: center;
+    padding-top: 27px;
+}
+
+li>.us-bg>p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: color.$white-color;
+    opacity: 100%;
+}

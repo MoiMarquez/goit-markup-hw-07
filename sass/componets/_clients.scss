@@ -1,0 +1,131 @@
+@use "../utils/variables.scss" as color;
+
+.clients-section {
+    padding: 59px 0 151px 0;
+}
+
+.clients-tittle {
+    text-align: center;
+    color: color.$black-color;
+    padding-bottom: 44px;
+}
+
+.regular-clients {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.clients-box {
+    position: relative;
+    color: color.$cards-icon-color;
+    width: 170px;
+    height: 81px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+.clients-box:hover,
+.clients-box:focus {
+    border-color: color.$highlight;
+}
+
+.icon-yaco {
+    position: absolute;
+    align-items: center;
+    width: 41px;
+    height: 47px;
+    top: 25%;
+    left: 38%;
+    fill: color.$cards-icon-color;
+}
+
+.icon-yaco:hover,
+.icon-yaco:focus {
+    cursor: pointer;
+    fill: color.$highlight;
+}
+
+.icon-company {
+    position: absolute;
+    align-items: center;
+    width: 41px;
+    height: 47px;
+    top: 25%;
+    left: 38%;
+    fill: color.$cards-icon-color;
+}
+
+.icon-company:hover,
+.icon-company:focus {
+    cursor: pointer;
+    fill: color.$highlight;
+}
+
+.icon-company2 {
+    position: absolute;
+    align-items: center;
+    width: 40px;
+    height: 52px;
+    top: 20%;
+    left: 38%;
+    fill: color.$cards-icon-color;
+}
+
+.icon-company2:hover,
+.icon-company2:focus {
+    cursor: pointer;
+    fill: color.$highlight;
+}
+
+.icon-foster-p {
+    position: absolute;
+    align-items: center;
+    width: 84px;
+    height: 40px;
+    top: 25%;
+    left: 31%;
+    fill: color.$cards-icon-color;
+}
+
+.icon-foster-p:hover,
+.icon-foster-p:focus {
+    cursor: pointer;
+    fill: color.$highlight;
+}
+
+.icon-brand {
+    position: absolute;
+    align-items: center;
+    width: 62px;
+    height: 45px;
+    top: 25%;
+    left: 30%;
+    fill: color.$cards-icon-color;
+}
+
+.icon-brand:hover,
+.icon-brand:focus {
+    cursor: pointer;
+    fill: color.$highlight;
+}
+
+.icon-company_tagline {
+    position: absolute;
+    align-items: center;
+    width: 94px;
+    height: 44px;
+    top: 25%;
+    left: 25%;
+    fill: color.$cards-icon-color;
+}
+
+.icon-company_tagline:hover,
+.icon-company_tagline:focus {
+    cursor: pointer;
+    fill: color.$highlight;
+}
