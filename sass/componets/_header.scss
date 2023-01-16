@@ -5,55 +5,46 @@
     justify-content: space-between;
     align-items: center;
     padding: 24px 0;
+
+    &__nav {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 80px;
+
+
+        &__links {
+            display: flex;
+            list-style: none;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 5px 80px;
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.02em;
+        }
+
+        &__logo {
+            font-family: "Raleway";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 31px;
+            letter-spacing: 0.03em;
+            text-decoration: none;
+            color: color.$highlight;
+        }
+    }
 }
 
-header>nav {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 80px;
-}
-
-/* WebStudio */
-.header__logo {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-
-    letter-spacing: 0.03em;
-    text-decoration: none;
-
-    color: color.$highlight;
-}
-
-/* Ul */
-.nav__links {
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 5px 80px;
-
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-}
-
-li>a {
-    color: color.$grey-color;
-}
-
-li>a.page::after {
-    content: "";
-    display: flex;
-    align-items: flex-end;
-    visibility: hidden;
+li {
+    a {
+        color: color.$grey-color;
+    }
 }
 
 li>a.page:hover::after,
@@ -71,25 +62,37 @@ li>a:focus {
     color: color.$highlight;
 }
 
-aside.contact-ribbon {
+
+
+
+.header__contact {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
     gap: 10px;
 
-}
+    &__email {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
 
-/* info@devstudio.com */
-.ribbon-contact {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
+        color: color.$grey-color;
+        text-decoration: none;
+    }
 
-    color: color.$grey-color;
-    text-decoration: none;
+    &__phone {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+
+        color: color.$grey-color;
+        text-decoration: none;
+    }
 }
 
 .icon-envelope {
@@ -98,25 +101,12 @@ aside.contact-ribbon {
     fill: color.$grey-color;
 }
 
-.ribbon-contact:hover,
+.header__contact__email:hover,
 .icon-envelope:hover,
-.ribbon-contact:focus,
+.header__contact__email:focus,
 .icon-envelope:focus {
     color: color.$highlight;
     fill: color.$highlight;
-}
-
-/* +52 55 5529 6000 */
-
-.ribbon-contact2 {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-
-    color: color.$grey-color;
-    text-decoration: none;
 }
 
 .icon-phone {
@@ -125,9 +115,9 @@ aside.contact-ribbon {
     height: 15px;
 }
 
-.ribbon-contact2:hover,
+.header__contact__phone:hover,
 .icon-phone:hover,
-.ribbon-contact2:focus,
+.header__contact__phone:focus,
 .icon-phone:focus {
     fill: color.$highlight;
     color: color.$highlight;

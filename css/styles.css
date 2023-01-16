@@ -264,28 +264,13 @@ summary {
   align-items: center;
   padding: 24px 0;
 }
-
-header > nav {
+.header__nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   gap: 80px;
 }
-
-/* WebStudio */
-.header__logo {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  color: rgb(33, 150, 243);
-}
-
-/* Ul */
-.nav__links {
+.header__nav__links {
   display: flex;
   list-style: none;
   justify-content: space-around;
@@ -299,16 +284,19 @@ header > nav {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-
-li > a {
-  color: #757575;
+.header__nav__logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: rgb(33, 150, 243);
 }
 
-li > a.page::after {
-  content: "";
-  display: flex;
-  align-items: flex-end;
-  visibility: hidden;
+li a {
+  color: #757575;
 }
 
 li > a.page:hover::after,
@@ -326,16 +314,23 @@ li > a:focus {
   color: rgb(33, 150, 243);
 }
 
-aside.contact-ribbon {
+.header__contact {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: center;
   gap: 10px;
 }
-
-/* info@devstudio.com */
-.ribbon-contact {
+.header__contact__email {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+.header__contact__phone {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -351,23 +346,12 @@ aside.contact-ribbon {
   fill: #757575;
 }
 
-.ribbon-contact:hover,
+.header__contact__email:hover,
 .icon-envelope:hover,
-.ribbon-contact:focus,
+.header__contact__email:focus,
 .icon-envelope:focus {
   color: rgb(33, 150, 243);
   fill: rgb(33, 150, 243);
-}
-
-/* +52 55 5529 6000 */
-.ribbon-contact2 {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #757575;
-  text-decoration: none;
 }
 
 .icon-phone {
@@ -376,9 +360,9 @@ aside.contact-ribbon {
   height: 15px;
 }
 
-.ribbon-contact2:hover,
+.header__contact__phone:hover,
 .icon-phone:hover,
-.ribbon-contact2:focus,
+.header__contact__phone:focus,
 .icon-phone:focus {
   fill: rgb(33, 150, 243);
   color: rgb(33, 150, 243);
@@ -1225,28 +1209,13 @@ button.sub-button > p {
   align-items: center;
   padding: 24px 0;
 }
-
-header > nav {
+.header__nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   gap: 80px;
 }
-
-/* WebStudio */
-.header__logo {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  color: rgb(33, 150, 243);
-}
-
-/* Ul */
-.nav__links {
+.header__nav__links {
   display: flex;
   list-style: none;
   justify-content: space-around;
@@ -1260,16 +1229,19 @@ header > nav {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-
-li > a {
-  color: #757575;
+.header__nav__logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: rgb(33, 150, 243);
 }
 
-li > a.page::after {
-  content: "";
-  display: flex;
-  align-items: flex-end;
-  visibility: hidden;
+li a {
+  color: #757575;
 }
 
 li > a.page:hover::after,
@@ -1287,16 +1259,23 @@ li > a:focus {
   color: rgb(33, 150, 243);
 }
 
-aside.contact-ribbon {
+.header__contact {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: center;
   gap: 10px;
 }
-
-/* info@devstudio.com */
-.ribbon-contact {
+.header__contact__email {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+.header__contact__phone {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -1312,23 +1291,12 @@ aside.contact-ribbon {
   fill: #757575;
 }
 
-.ribbon-contact:hover,
+.header__contact__email:hover,
 .icon-envelope:hover,
-.ribbon-contact:focus,
+.header__contact__email:focus,
 .icon-envelope:focus {
   color: rgb(33, 150, 243);
   fill: rgb(33, 150, 243);
-}
-
-/* +52 55 5529 6000 */
-.ribbon-contact2 {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #757575;
-  text-decoration: none;
 }
 
 .icon-phone {
@@ -1337,9 +1305,9 @@ aside.contact-ribbon {
   height: 15px;
 }
 
-.ribbon-contact2:hover,
+.header__contact__phone:hover,
 .icon-phone:hover,
-.ribbon-contact2:focus,
+.header__contact__phone:focus,
 .icon-phone:focus {
   fill: rgb(33, 150, 243);
   color: rgb(33, 150, 243);
