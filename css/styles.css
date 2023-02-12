@@ -738,33 +738,35 @@ label .comments::placeholder {
   opacity: 100%;
 }
 
-.team-section {
+.team {
+  padding: 94px 0 94px 0;
+  padding-bottom: 94px;
   background-color: #f5f4fa;
 }
-
-.our-team {
+.team__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.team__tittle {
   text-align: center;
   color: #212121;
   padding-bottom: 50px;
 }
-
-.team-box {
+.team__list {
   display: flex;
   list-style: none;
   gap: 37px;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
 }
-
-.team-list {
+.team__items {
   background-color: #FFFFFF;
   height: auto;
   /*CARD SHADOW*/
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-
-li > h3 {
+.team__card-tittle {
   display: block;
   text-align: center;
   padding-top: 30px;
@@ -777,8 +779,7 @@ li > h3 {
   text-align: center;
   color: #212121;
 }
-
-li > p {
+.team__card-job {
   display: block;
   padding-top: 10px;
   font-style: normal;
@@ -789,31 +790,26 @@ li > p {
   color: #757575;
 }
 
-ul.social-ulist {
+.socialmedialist {
   display: flex;
   list-style: none;
   gap: 10px;
   margin: 16px 32px 30px 32px;
 }
-
-ul.social-ulist > li {
+.socialmedialist__items {
   position: relative;
-}
-
-li .elipse {
   height: 44px;
   width: 44px;
   background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
+  background-color: red;
+  border-radius: 100%;
 }
-
-.elipse:hover,
-.elipse:focus {
+.socialmedialist__items:hover,
+.socialmedialist__items :focus {
   background-color: rgb(33, 150, 243);
   cursor: pointer;
 }
-
-li > .icon-ig {
+.socialmedialist__icon-ig {
   position: absolute;
   top: 25%;
   left: 25%;
@@ -821,13 +817,11 @@ li > .icon-ig {
   height: 20px;
   fill: #afb1b8;
 }
-
-.icon-ig:hover,
-.icon-ig:focus {
+.socialmedialist__icon-ig:hover,
+.socialmedialist__icon-ig :focus {
   fill: #FFFFFF;
 }
-
-.icon-twitter {
+.socialmedialist__icon-twitter {
   position: absolute;
   top: 25%;
   left: 25%;
@@ -835,13 +829,11 @@ li > .icon-ig {
   height: 20px;
   fill: #afb1b8;
 }
-
-.icon-twitter:hover,
-.icon-twitter:focus {
+.socialmedialist__icon-twitter:hover,
+.socialmedialist__icon-twitter :focus {
   fill: #FFFFFF;
 }
-
-.icon-fb {
+.socialmedialist__icon-fb {
   position: absolute;
   top: 25%;
   left: 25%;
@@ -849,13 +841,11 @@ li > .icon-ig {
   height: 20px;
   fill: #afb1b8;
 }
-
-.icon-fb:hover,
-.icon-fb:focus {
+.socialmedialist__icon-fb:hover,
+.socialmedialist__icon-fb :focus {
   fill: #FFFFFF;
 }
-
-.icon-linkedin {
+.socialmedialist__icon-linkedin {
   position: absolute;
   top: 25%;
   left: 25%;
@@ -863,9 +853,8 @@ li > .icon-ig {
   height: 20px;
   fill: #afb1b8;
 }
-
-.icon-linkedin:hover,
-.icon-linkedin:focus {
+.socialmedialist__icon-linkedin:hover,
+.socialmedialist__icon-linkedin :focus {
   fill: #FFFFFF;
 }
 
