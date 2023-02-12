@@ -14,18 +14,17 @@ body {
     color: color.$grey-color;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
+.separator::before {
+    content: "";
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    border: 1px solid #ececec;
 }
 
-.list {
-    display: flex;
-    list-style: none;
-}
 
 /*Background*/
-section.background {
+.main-page {
     height: 600px;
     max-width: 1600px;
     margin-left: auto;
@@ -40,55 +39,46 @@ section.background {
             rgba(47, 48, 58, 0.4)),
         url("../images/bg_img.jpg");
     background-size: cover;
+
+    &__title {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        width: 696px;
+
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        z-index: 2;
+
+        color: color.$white-color;
+    }
+
+    &__button {
+        cursor: pointer;
+        padding: 10px 32px;
+        width: 261px;
+        height: 50px;
+        margin-top: 30px;
+        z-index: 2;
+
+        background: color.$highlight;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+    }
+
+    &__button:hover,
+    &__button:focus {
+        box-shadow: 1px 1px 4px color.$white-color;
+        color: color.$white-color;
+        background-color: color.$highlight;
+        border-color: color.$highlight;
+    }
 }
 
-main::before {
-    content: "";
-    display: flex;
-    align-items: flex-end;
-    width: 100%;
-    border: 1px solid #ececec;
-}
 
-/* SOLUCIONES EFICACES PARA SU NEGOCIO */
-
-h1.main-tittle {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
-    width: 696px;
-
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    z-index: 2;
-
-    color: color.$white-color;
-}
-
-/* Auto layout */
-.main-button {
-    cursor: pointer;
-    padding: 10px 32px;
-    width: 261px;
-    height: 50px;
-    margin-top: 30px;
-    z-index: 2;
-
-    background: color.$highlight;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-}
-
-.main-button:hover,
-.main-button:focus {
-    box-shadow: 1px 1px 4px color.$white-color;
-    color: color.$white-color;
-    background-color: color.$highlight;
-    border-color: color.$highlight;
-}
 
 .backdrop {
     position: fixed;
