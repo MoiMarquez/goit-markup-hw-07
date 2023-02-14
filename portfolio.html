@@ -21,16 +21,15 @@
 </head>
 
 <body>
-	<header class="header container">
+	<header class="header">
 		<nav>
-			<ul class="header__nav__links list">
+			<ul class="header__nav__links">
 				<a class="header__nav__logo" href="index.html">WebStudio</a>
-				<li><a class="header__nav__page" href="index.html">Estudio</a></li>
-				<li><a class="header__nav__page current" href="portfolio.html">Portafolio</a></li>
+				<li><a class="header__nav__page current" href="index.html">Estudio</a></li>
+				<li><a class="header__nav__page" href="portfolio.html">Portafolio</a></li>
 				<li><a class="header__nav__page" href="contacts.html">Contactos</a></li>
 			</ul>
 		</nav>
-
 		<aside class="header__contact list">
 			<a class="header__contact__email" href="mailto:info@devstudio.com">
 				<svg class="icon-envelope">
@@ -46,159 +45,169 @@
 		</aside>
 	</header>
 
-	<main>
+	<main class="separator">
 		<section class="portfolio">
-			<div class="container">
-				<ul class="button-filter">
-					<li><button type="button">Todo</button></li>
-					<li><button type="button">Sitios-web</button></li>
-					<li><button type="button">Aplicaciones</button></li>
-					<li><button type="button">Diseño</button></li>
-					<li><button type="button">Marketing</button></li>
+			<div>
+				<ul class="portfolio__button-list">
+					<li class="portfolio__button-item">
+						<button class="portfolio__button-item__child" type="button">Todo</button>
+					</li>
+					<li class="portfolio__button-item">
+						<button class="portfolio__button-item__child" type="button">Sitios-web</button>
+					</li>
+					<li class="portfolio__button-item">
+						<button class="portfolio__button-item__child" type="button">Aplicaciones</button>
+					</li>
+					<li class="portfolio__button-item">
+						<button class="portfolio__button-item__child" type="button">Diseño</button>
+					</li>
+					<li class="portfolio__button-item">
+						<button class="portfolio__button-item__child" type="button">Marketing</button>
+					</li>
 				</ul>
 
-				<ul class="grid-box">
-					<li>
-						<div class="transition-box">
+				<ul class="portfolio-card">
+					<li class="portfolio-card__items">
+						<div class="portfolio-card__transition-box">
 							<img class="translation-bg" src="images/gridimg1.jpg" alt="Tecnoduck" width="370" />
-							<div class="overflow-box">
-								<p>Tecnoduck es una plataforma de distribución
+							<div class="portfolio-card__overflow-box">
+								<p class="portfolio-card__description">Tecnoduck es una plataforma de distribución
 									de coronavirus de última generación. Las compañías usan esta
 									plataforma para el espionaje digital y los ataques a los servidores
 									seguros de la competencia.</p>
 							</div>
 						</div>
 						<a href="#" class="link">
-							<h3 class="bold-text">Tecnoduck</h3>
-							<p class="filter-text">Sitio-web</p>
+							<h3 class="portfolio-card__tittle">Tecnoduck</h3>
+							<p class="portfolio-card__filter-text">Sitio-web</p>
 						</a>
 					</li>
 
-					<li>
-						<div class="transition-box">
+					<li class="portfolio-card__items">
+						<div class="portfolio-card__transition-box">
 							<img class="translation-bg" src="images/gridimg2.jpg" alt="Basket" width="370" />
-							<div class="overflow-box">
-								<p>Tecnoduck es una plataforma de distribución
+							<div class="portfolio-card__overflow-box">
+								<p class="portfolio-card__description">Tecnoduck es una plataforma de distribución
 									de coronavirus de última generación. Las compañías usan esta
 									plataforma para el espionaje digital y los ataques a los servidores
 									seguros de la competencia.</p>
 							</div>
 						</div>
 						<a href="#" class="link">
-							<h3 class="bold-text">Tecnoduck</h3>
-							<p class="filter-text">Sitio-web</p>
+							<h3 class="portfolio-card__tittle">Tecnoduck</h3>
+							<p class="portfolio-card__filter-text">Sitio-web</p>
 						</a>
 					</li>
 
-					<li>
-						<div class="transition-box">
+					<li class="portfolio-card__items">
+						<div class="portfolio-card__transition-box">
 							<img class="translation-bg" src="images/gridimg3.jpg" alt="Restaurant" width="370" />
-							<div class="overflow-box">
-								<p>Tecnoduck es una plataforma de distribución
+							<div class="portfolio-card__overflow-box">
+								<p class="portfolio-card__description">Tecnoduck es una plataforma de distribución
 									de coronavirus de última generación. Las compañías usan esta
 									plataforma para el espionaje digital y los ataques a los servidores
 									seguros de la competencia.</p>
 							</div>
 						</div>
 						<a href="#" class="link">
-							<h3 class="bold-text">Tecnoduck</h3>
-							<p class="filter-text">Sitio-web</p>
+							<h3 class="portfolio-card__tittle">Tecnoduck</h3>
+							<p class="portfolio-card__filter-text">Sitio-web</p>
 						</a>
 					</li>
 
-					<li>
-						<div class="transition-box">
+					<li class="portfolio-card__items">
+						<div class="portfolio-card__transition-box">
 							<img class="translation-bg" src="images/gridimg4.jpg" alt="Headset" width="370" />
-							<div class="overflow-box">
-								<p>Tecnoduck es una plataforma de distribución
+							<div class="portfolio-card__overflow-box">
+								<p class="portfolio-card__description">Tecnoduck es una plataforma de distribución
 									de coronavirus de última generación. Las compañías usan esta
 									plataforma para el espionaje digital y los ataques a los servidores
 									seguros de la competencia.</p>
 							</div>
 						</div>
 						<a href="#" class="link">
-							<h3 class="bold-text">Tecnoduck</h3>
-							<p class="filter-text">Sitio-web</p>
+							<h3 class="portfolio-card__tittle">Tecnoduck</h3>
+							<p class="portfolio-card__filter-text">Sitio-web</p>
 						</a>
 					</li>
 
-					<li>
-						<div class="transition-box">
+					<li class="portfolio-card__items">
+						<div class="portfolio-card__transition-box">
 							<img class="translation-bg" src="images/gridimg5.jpg" alt="Boxes" width="370" />
-							<div class="overflow-box">
-								<p>Tecnoduck es una plataforma de distribución
+							<div class="portfolio-card__overflow-box">
+								<p class="portfolio-card__description">Tecnoduck es una plataforma de distribución
 									de coronavirus de última generación. Las compañías usan esta
 									plataforma para el espionaje digital y los ataques a los servidores
 									seguros de la competencia.</p>
 							</div>
 						</div>
 						<a href="#" class="link">
-							<h3 class="bold-text">Tecnoduck</h3>
-							<p class="filter-text">Sitio-web</p>
+							<h3 class="portfolio-card__tittle">Tecnoduck</h3>
+							<p class="portfolio-card__filter-text">Sitio-web</p>
 						</a>
 					</li>
 
-					<li>
-						<div class="transition-box">
+					<li class="portfolio-card__items">
+						<div class="portfolio-card__transition-box">
 							<img class="translation-bg" src="images/gridimg6.jpg" alt="Mac" width="370" />
-							<div class="overflow-box">
-								<p>Tecnoduck es una plataforma de distribución
+							<div class="portfolio-card__overflow-box">
+								<p class="portfolio-card__description">Tecnoduck es una plataforma de distribución
 									de coronavirus de última generación. Las compañías usan esta
 									plataforma para el espionaje digital y los ataques a los servidores
 									seguros de la competencia.</p>
 							</div>
 						</div>
 						<a href="#" class="link">
-							<h3 class="bold-text">Tecnoduck</h3>
-							<p class="filter-text">Sitio-web</p>
+							<h3 class="portfolio-card__tittle">Tecnoduck</h3>
+							<p class="portfolio-card__filter-text">Sitio-web</p>
 						</a>
 					</li>
 
-					<li>
-						<div class="transition-box">
+					<li class="portfolio-card__items">
+						<div class="portfolio-card__transition-box">
 							<img class="translation-bg" src="images/gridimg7.jpg" alt="Book" width="370" />
-							<div class="overflow-box">
-								<p>Tecnoduck es una plataforma de distribución
+							<div class="portfolio-card__overflow-box">
+								<p class="portfolio-card__description">Tecnoduck es una plataforma de distribución
 									de coronavirus de última generación. Las compañías usan esta
 									plataforma para el espionaje digital y los ataques a los servidores
 									seguros de la competencia.</p>
 							</div>
 						</div>
 						<a href="#" class="link">
-							<h3 class="bold-text">Tecnoduck</h3>
-							<p class="filter-text">Sitio-web</p>
+							<h3 class="portfolio-card__tittle">Tecnoduck</h3>
+							<p class="portfolio-card__filter-text">Sitio-web</p>
 						</a>
 					</li>
 
-					<li>
-						<div class="transition-box">
+					<li class="portfolio-card__items">
+						<div class="portfolio-card__transition-box">
 							<img class="translation-bg" src="images/gridimg8.jpg" alt="Label" width="370" />
-							<div class="overflow-box">
-								<p>Tecnoduck es una plataforma de distribución
+							<div class="portfolio-card__overflow-box">
+								<p class="portfolio-card__description">Tecnoduck es una plataforma de distribución
 									de coronavirus de última generación. Las compañías usan esta
 									plataforma para el espionaje digital y los ataques a los servidores
 									seguros de la competencia.</p>
 							</div>
 						</div>
 						<a href="#" class="link">
-							<h3 class="bold-text">Tecnoduck</h3>
-							<p class="filter-text">Sitio-web</p>
+							<h3 class="portfolio-card__tittle">Tecnoduck</h3>
+							<p class="portfolio-card__filter-text">Sitio-web</p>
 						</a>
 					</li>
 
-					<li>
-						<div class="transition-box">
+					<li class="portfolio-card__items">
+						<div class="portfolio-card__transition-box">
 							<img class="translation-bg" src="images/gridimg9.jpg" alt="App" width="370" />
-							<div class="overflow-box">
-								<p>Tecnoduck es una plataforma de distribución
+							<div class="portfolio-card__overflow-box">
+								<p class="portfolio-card__description">Tecnoduck es una plataforma de distribución
 									de coronavirus de última generación. Las compañías usan esta
 									plataforma para el espionaje digital y los ataques a los servidores
 									seguros de la competencia.</p>
 							</div>
 						</div>
 						<a href="#" class="link">
-							<h3 class="bold-text">Tecnoduck</h3>
-							<p class="filter-text">Sitio-web</p>
+							<h3 class="portfolio-card__tittle">Tecnoduck</h3>
+							<p class="portfolio-card__filter-text">Sitio-web</p>
 						</a>
 					</li>
 				</ul>
