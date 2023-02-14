@@ -1,187 +1,186 @@
 @use "../utils/variables.scss" as color;
+@use "../utils/variables.scss" as var;
 
-footer.footerbg {
+.footer {
     background: color.$bg-color;
-}
 
-div.section {
-    display: flex;
-    padding-top: 60px;
-    padding-bottom: 47px;
-}
-
-.logo2 {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-
-    letter-spacing: 0.03em;
-    text-decoration: none;
-
-    color: color.$highlight;
-    ;
-}
-
-.footer-address {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-
-    letter-spacing: 0.03em;
-    color: color.$white-color;
-}
-
-.footer-contact {
-    letter-spacing: 0.03em;
-    text-decoration: none;
-
-    color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-contact:hover,
-.footer-contact:focus {
-    color: color.$highlight;
-    ;
-}
-
-aside.social-links {
-    padding-left: 70px;
-}
-
-.find-us {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    padding-top: 15px;
-    padding-bottom: 20px;
-
-    color: color.$white-color;
-}
-
-.social-ulist-footer {
-    display: flex;
-    list-style: none;
-    gap: 10px;
-    margin-left: 0px;
-}
-
-.elipse-footer {
-    position: relative;
-    height: 44px;
-    width: 44px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
-}
-
-.elipse-footer:hover,
-.elipse-footer:focus {
-    background-color: color.$highlight;
-    cursor: pointer;
-}
-
-aside ul li>.icon-ig {
-    position: absolute;
-    top: 25%;
-    left: 25%;
-    width: 20px;
-    height: 20px;
-    fill: color.$white-color;
-}
+    &__container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        padding-top: 60px;
+        padding-bottom: 47px;
+        max-width: 1200px;
+    }
 
 
-aside ul li>.icon-twitter {
-    position: absolute;
-    top: 25%;
-    left: 25%;
-    width: 20px;
-    height: 20px;
-    fill: color.$white-color;
-}
+    &__logo {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
 
+        letter-spacing: 0.03em;
+        text-decoration: none;
 
-aside ul li>.icon-fb {
-    position: absolute;
-    top: 25%;
-    left: 25%;
-    width: 20px;
-    height: 20px;
-    fill: color.$white-color;
-}
+        color: color.$highlight;
+    }
 
+    &__address {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
 
-aside ul li>.icon-linkedin {
-    position: absolute;
-    top: 25%;
-    left: 25%;
-    width: 20px;
-    height: 20px;
-    fill: color.$white-color;
-}
+        letter-spacing: 0.03em;
+        color: color.$white-color;
+    }
 
+    &__contact {
+        letter-spacing: 0.03em;
+        text-decoration: none;
 
-.footer-form {
-    margin: 12px 0px 0px 93px;
-}
+        color: rgba(255, 255, 255, 0.6);
 
-.footer-form-tittle {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+        &:hover,
+        :focus {
+            color: color.$highlight;
+        }
+    }
 
-    margin-bottom: 20px;
+    &__middle-aside {
+        padding-left: 70px;
+    }
 
-    color: color.$white-color;
-}
+    &__tittle {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        padding-top: 15px;
+        padding-bottom: 20px;
 
-.footer-div {
-    display: inline;
-    width: 580px;
-    height: auto;
-}
+        color: color.$white-color;
+    }
 
-.footer-input-form {
-    width: 358px;
-    height: 50px;
-    margin-right: 12px;
-    padding: 15px 0px 15px 16px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    color: rgba(255, 255, 255, 0.6);
-    background-color: var(--bg-color);
+    &__list {
+        display: flex;
+        list-style: none;
+        gap: 10px;
+        margin-left: 0px;
+    }
 
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-}
+    &__items {
+        position: relative;
+        height: 44px;
+        width: 44px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
 
-button.sub-button {
-    width: 200px;
-    height: 50px;
-    padding: 0;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    background-color: color.$highlight;
-    color: color.$white-color;
-}
+        &:hover,
+        :focus {
+            background-color: color.$highlight;
+            cursor: pointer;
+        }
+    }
 
-button.sub-button>p {
-    display: inline;
-    width: 80px;
-}
+    &__icon-ig {
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        width: 20px;
+        height: 20px;
+        fill: color.$white-color;
+    }
 
-.icon-telegram {
-    width: 24px;
-    height: 24px;
-    margin-left: 8px;
-    fill: color.$white-color;
+    &__icon-twitter {
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        width: 20px;
+        height: 20px;
+        fill: color.$white-color;
+    }
+
+    &__icon-fb {
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        width: 20px;
+        height: 20px;
+        fill: color.$white-color;
+    }
+
+    &__icon-linkedin {
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        width: 20px;
+        height: 20px;
+        fill: color.$white-color;
+    }
+
+    &__right-aside {
+        margin: 12px 0px 0px 93px;
+    }
+
+    &__right-tittle {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+
+        margin-bottom: 20px;
+
+        color: color.$white-color;
+    }
+
+    &__right-div {
+        display: inline;
+        width: 580px;
+        height: auto;
+    }
+
+    &__input {
+        width: 358px;
+        height: 50px;
+        margin-right: 12px;
+        padding: 15px 0px 15px 16px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: rgba(255, 255, 255, 0.6);
+        background-color: var(--bg-color);
+
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        border-radius: 4px;
+    }
+
+    &__button {
+        width: 200px;
+        height: 50px;
+        padding: 0;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        background-color: color.$highlight;
+        color: color.$white-color;
+    }
+
+    &__sub-text {
+        display: inline;
+        width: 80px;
+    }
+
+    &__icon-telegram {
+        width: 24px;
+        height: 24px;
+        margin-left: 13px, 28px, 13px, 8px;
+        fill: color.$white-color;
+    }
 }

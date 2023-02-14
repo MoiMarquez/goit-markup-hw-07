@@ -857,17 +857,19 @@ label .comments::placeholder {
   fill: #FFFFFF;
 }
 
-.clients-section {
+.clients {
   padding: 59px 0 151px 0;
 }
-
-.clients-tittle {
+.clients__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.clients__tittle {
   text-align: center;
   color: #212121;
   padding-bottom: 44px;
 }
-
-.regular-clients {
+.clients__list {
   display: flex;
   list-style: none;
   justify-content: space-between;
@@ -875,8 +877,7 @@ label .comments::placeholder {
   flex-wrap: wrap;
   gap: 30px;
 }
-
-.clients-box {
+.clients__items {
   position: relative;
   color: #afb1b8;
   width: 170px;
@@ -885,13 +886,11 @@ label .comments::placeholder {
   border-width: 1px;
   border-radius: 4px;
 }
-
-.clients-box:hover,
-.clients-box:focus {
+.clients__items:hover,
+.clients__items :focus {
   border-color: rgb(33, 150, 243);
 }
-
-.icon-yaco {
+.clients__icon-yaco {
   position: absolute;
   align-items: center;
   width: 41px;
@@ -900,14 +899,12 @@ label .comments::placeholder {
   left: 38%;
   fill: #afb1b8;
 }
-
-.icon-yaco:hover,
-.icon-yaco:focus {
+.clients__icon-yaco:hover,
+.clients__icon-yaco :focus {
   cursor: pointer;
   fill: rgb(33, 150, 243);
 }
-
-.icon-company {
+.clients__icon-company {
   position: absolute;
   align-items: center;
   width: 41px;
@@ -916,14 +913,12 @@ label .comments::placeholder {
   left: 38%;
   fill: #afb1b8;
 }
-
-.icon-company:hover,
-.icon-company:focus {
+.clients__icon-company:hover,
+.clients__icon-company :focus {
   cursor: pointer;
   fill: rgb(33, 150, 243);
 }
-
-.icon-company2 {
+.clients__icon-company2 {
   position: absolute;
   align-items: center;
   width: 40px;
@@ -932,14 +927,12 @@ label .comments::placeholder {
   left: 38%;
   fill: #afb1b8;
 }
-
-.icon-company2:hover,
-.icon-company2:focus {
+.clients__icon-company2:hover,
+.clients__icon-company2 :focus {
   cursor: pointer;
   fill: rgb(33, 150, 243);
 }
-
-.icon-foster-p {
+.clients__icon-foster {
   position: absolute;
   align-items: center;
   width: 84px;
@@ -948,14 +941,12 @@ label .comments::placeholder {
   left: 31%;
   fill: #afb1b8;
 }
-
-.icon-foster-p:hover,
-.icon-foster-p:focus {
+.clients__icon-foster:hover,
+.clients__icon-foster :focus {
   cursor: pointer;
   fill: rgb(33, 150, 243);
 }
-
-.icon-brand {
+.clients__icon-brand {
   position: absolute;
   align-items: center;
   width: 62px;
@@ -964,14 +955,12 @@ label .comments::placeholder {
   left: 30%;
   fill: #afb1b8;
 }
-
-.icon-brand:hover,
-.icon-brand:focus {
+.clients__icon-brand:hover,
+.clients__icon-brand :focus {
   cursor: pointer;
   fill: rgb(33, 150, 243);
 }
-
-.icon-company_tagline {
+.clients__icon-tagline {
   position: absolute;
   align-items: center;
   width: 94px;
@@ -980,24 +969,24 @@ label .comments::placeholder {
   left: 25%;
   fill: #afb1b8;
 }
-
-.icon-company_tagline:hover,
-.icon-company_tagline:focus {
+.clients__icon-tagline:hover,
+.clients__icon-tagline :focus {
   cursor: pointer;
   fill: rgb(33, 150, 243);
 }
 
-footer.footerbg {
+.footer {
   background: #2f303a;
 }
-
-div.section {
+.footer__container {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   padding-top: 60px;
   padding-bottom: 47px;
+  max-width: 1200px;
 }
-
-.logo2 {
+.footer__logo {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -1007,8 +996,7 @@ div.section {
   text-decoration: none;
   color: rgb(33, 150, 243);
 }
-
-.footer-address {
+.footer__address {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1016,23 +1004,19 @@ div.section {
   letter-spacing: 0.03em;
   color: #FFFFFF;
 }
-
-.footer-contact {
+.footer__contact {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
-
-.footer-contact:hover,
-.footer-contact:focus {
+.footer__contact:hover,
+.footer__contact :focus {
   color: rgb(33, 150, 243);
 }
-
-aside.social-links {
+.footer__middle-aside {
   padding-left: 70px;
 }
-
-.find-us {
+.footer__tittle {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -1043,29 +1027,25 @@ aside.social-links {
   padding-bottom: 20px;
   color: #FFFFFF;
 }
-
-.social-ulist-footer {
+.footer__list {
   display: flex;
   list-style: none;
   gap: 10px;
   margin-left: 0px;
 }
-
-.elipse-footer {
+.footer__items {
   position: relative;
   height: 44px;
   width: 44px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
-
-.elipse-footer:hover,
-.elipse-footer:focus {
+.footer__items:hover,
+.footer__items :focus {
   background-color: rgb(33, 150, 243);
   cursor: pointer;
 }
-
-aside ul li > .icon-ig {
+.footer__icon-ig {
   position: absolute;
   top: 25%;
   left: 25%;
@@ -1073,8 +1053,7 @@ aside ul li > .icon-ig {
   height: 20px;
   fill: #FFFFFF;
 }
-
-aside ul li > .icon-twitter {
+.footer__icon-twitter {
   position: absolute;
   top: 25%;
   left: 25%;
@@ -1082,8 +1061,7 @@ aside ul li > .icon-twitter {
   height: 20px;
   fill: #FFFFFF;
 }
-
-aside ul li > .icon-fb {
+.footer__icon-fb {
   position: absolute;
   top: 25%;
   left: 25%;
@@ -1091,8 +1069,7 @@ aside ul li > .icon-fb {
   height: 20px;
   fill: #FFFFFF;
 }
-
-aside ul li > .icon-linkedin {
+.footer__icon-linkedin {
   position: absolute;
   top: 25%;
   left: 25%;
@@ -1100,12 +1077,10 @@ aside ul li > .icon-linkedin {
   height: 20px;
   fill: #FFFFFF;
 }
-
-.footer-form {
+.footer__right-aside {
   margin: 12px 0px 0px 93px;
 }
-
-.footer-form-tittle {
+.footer__right-tittle {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -1116,14 +1091,12 @@ aside ul li > .icon-linkedin {
   margin-bottom: 20px;
   color: #FFFFFF;
 }
-
-.footer-div {
+.footer__right-div {
   display: inline;
   width: 580px;
   height: auto;
 }
-
-.footer-input-form {
+.footer__input {
   width: 358px;
   height: 50px;
   margin-right: 12px;
@@ -1137,8 +1110,7 @@ aside ul li > .icon-linkedin {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
 }
-
-button.sub-button {
+.footer__button {
   width: 200px;
   height: 50px;
   padding: 0;
@@ -1146,16 +1118,14 @@ button.sub-button {
   background-color: rgb(33, 150, 243);
   color: #FFFFFF;
 }
-
-button.sub-button > p {
+.footer__sub-text {
   display: inline;
   width: 80px;
 }
-
-.icon-telegram {
+.footer__icon-telegram {
   width: 24px;
   height: 24px;
-  margin-left: 8px;
+  margin-left: 13px, 28px, 13px, 8px;
   fill: #FFFFFF;
 }
 
